@@ -1,0 +1,133 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+code {
+  font-family: source-code-pro, monospace;
+  color: white;
+}
+.HomePageContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 650px;
+  height: max-content;
+  flex-direction: column;
+}
+.userBanner {
+  background: black;
+  color: aliceblue;
+  width: 650px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+#search-engine {
+  width: 320px;
+  height: 30px;
+}
+.playercards {
+  display: flex;
+  border-radius: 5px;
+  background: #061c2d;
+  color: #ffffff;
+  width: 600px;
+  height: 100px;
+  justify-content: center;
+  margin-top: 10px;
+}
+.loginContainer {
+  display: flex;
+  background: -webkit-linear-gradient(
+    top,
+    #1e5799 3%,
+    #207cca 30%,
+    #2989d8 50%,
+    #7db9e8 100%
+  );
+}
+
+.buttonCreateuserContainer {
+  display: flex;
+  align-items: flex-end;
+}
+.form-inner {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+.maincontainer {
+  display: flex;
+  height: max-content;
+  margin-top: 150px;
+}
+.createuserbutton {
+  background: linear-gradient(to bottom, #3d94f6 5%, #1e62d0 100%);
+  border-radius: 6px;
+  border: none;
+  color: #ffffff;
+  font-size: 10px;
+  font-weight: bold;
+  padding: 6px 24px;
+  text-decoration: none;
+}
+.createuserbutton:active {
+  position: relative;
+  top: 1px;
+}
+.loginbutton {
+  background: linear-gradient(to bottom, #3d94f6 5%, #1e62d0 100%);
+  border-radius: 6px;
+  border: none;
+  color: #ffffff;
+  font-size: 10px;
+  font-weight: bold;
+  padding: 6px 24px;
+  text-decoration: none;
+}
+.loginbutton:active {
+  position: relative;
+  top: 1px;
+}
+.formcontainer {
+  display: flex;
+  justify-content: flex-end;
+}
+.newusercontainer {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  font-weight: bold;
+}
+.createusercontainer {
+  margin-left: 50px;
+}
+.statsboardcontainer {
+  font-size: 14px;
+  width: 360px;
+}
+.deletebutton {
+  background: linear-gradient(to bottom, #b64343 5%, #ac3b41 100%);
+  border-radius: 6px;
+  border: none;
+  color: #ffffff;
+  font-size: 10px;
+  font-weight: bold;
+  padding: 6px 24px;
+  text-decoration: none;
+}
+.playercards:hover {
+  -webkit-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  transform: scale(1.1);
+}
